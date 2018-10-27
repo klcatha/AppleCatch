@@ -218,6 +218,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1a49e4aaa5fc7e14785109be3d626023, type: 3}
+      propertyPath: m_TagString
+      value: Bomb
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a49e4aaa5fc7e14785109be3d626023, type: 3}
   m_IsPrefabAsset: 0
@@ -467,6 +471,10 @@ Prefab:
     - target: {fileID: 400000, guid: 87f76c95b4a325e43851603eca69a7a4, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87f76c95b4a325e43851603eca69a7a4, type: 3}
+      propertyPath: m_TagString
+      value: Apple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87f76c95b4a325e43851603eca69a7a4, type: 3}
