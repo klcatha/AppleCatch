@@ -24,4 +24,9 @@ public class BasketController : MonoBehaviour {
 		}
 		
 	}
+	private void OnTriggerEnter(Collider other)
+	{
+		Debug.Log("キャッチ");
+		Destroy(other.gameObject);
+	}
 }
