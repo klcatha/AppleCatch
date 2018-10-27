@@ -312,6 +312,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4e38cdbda0704488f9f4987a2386eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  appleSE: {fileID: 8300000, guid: 138f3334126504740a8bf65ed6732990, type: 3}
+  bombSE: {fileID: 8300000, guid: b330ae98093969f4d9ccb77bc70377df, type: 3}
 --- !u!54 &342245308
 Rigidbody:
   m_ObjectHideFlags: 0
