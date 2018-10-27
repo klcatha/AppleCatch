@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class BasketController : MonoBehaviour {
 
+	public AudioClip appleSE;
+	public AudioClip bombSE;
+	AudioSource aud;
+
 	// Use this for initialization
 	void Start () {
-		
+		this.aud = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -28,10 +32,10 @@ public class BasketController : MonoBehaviour {
 	{
 		if(other.gameObject.tag == "Apple")
 		{
-			Debug.Log("tag = apple");
+			this.aud.PlayOneShot(this.appleSE);
 		} else
 		{
-			Debug.Log("tag = bomb");
+			this.aud.PlayOneShot(this.bombSE);
 		}
 		Destroy(other.gameObject);
 	}
