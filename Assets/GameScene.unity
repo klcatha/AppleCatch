@@ -537,8 +537,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eb79cd865921c642b6390d6c54efd50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applePrefab: {fileID: 0}
-  bombPrefab: {fileID: 0}
+  applePrefab: {fileID: 1175417892118468, guid: bc3108b84cabc4045a22ff2e5556b41b,
+    type: 2}
+  bombPrefab: {fileID: 1153951641452258, guid: 83aa30fcbb5c4434697f7f69ba33ba55, type: 2}
 --- !u!1001 &978404515
 Prefab:
   m_ObjectHideFlags: 0
